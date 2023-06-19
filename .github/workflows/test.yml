@@ -44,8 +44,6 @@ jobs:
 
     - name: Run migrations
       run: make migrateup
-      working-directory: section-1_working-with-database-postgres-sqlc/simplebank
 
     - name: Test
       run: make test
-      working-directory: section-1_working-with-database-postgres-sqlc/simplebank
